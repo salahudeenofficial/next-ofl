@@ -34,7 +34,7 @@ export default function Landing() {
         </div>
         
         <div className="absolute inset-0 flex flex-col justify-center items-start p-6 md:p-8 text-white">
-          <h1 className="hidden md:block text-6xl font-bold mb-12 md:mb-4">
+          <h1 className="hidden md:block text-5xl font-bold mb-12 md:mb-4">
             We help you Move Your<br /> Dream.
           </h1>
           <h1 className="md:hidden block text-6xl font-normal mb-16 ">
