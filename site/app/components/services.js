@@ -80,7 +80,7 @@ const ServiceSelector = () => {
   const [selectedService, setSelectedService] = useState(services[0]);
 
   return (
-    <div className="w-full bg-white pt-10">
+    <div className="-translate-y-20 w-full bg-white pt-10">
       <h1 className="text-custom-blue font-josefin text-lg pl-20 pb-10">
         OUR SERVICES
       </h1>
