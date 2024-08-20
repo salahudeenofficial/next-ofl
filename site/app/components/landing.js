@@ -17,7 +17,7 @@ export default function Landing() {
           <Image
             src="/images/im1.png" // Replace with your image path
             alt="Port and logistics"
-            style={{ objectFit: 'cover' , objectPosition: 'right'}} fill
+            style={{ objectFit: 'cover' , objectPosition: 'left'}} fill
             quality={100}
           />
         </div>
