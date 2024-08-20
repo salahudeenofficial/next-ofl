@@ -17,9 +17,7 @@ export default function Landing() {
           <Image
             src="/images/im1.png" // Replace with your image path
             alt="Port and logistics"
-            layout="fill"
-            objectFit="fill"
-            objectPosition="right"
+            style={{ objectFit: 'cover' , objectPosition: 'right'}} fill
             quality={100}
           />
         </div>
@@ -27,17 +25,14 @@ export default function Landing() {
           <Image
             src="/images/mobim1.png" // Replace with your image path
             alt="Port and logistics"
-            layout="fill"
-            objectFit="fill"
-            objectPosition="right"
+            style={{ objectFit: 'cover' , objectPosition: 'right'}} fill
             quality={100}
           />
         </div>
 
         <div className="absolute inset-0 flex flex-col justify-center items-start p-6 md:p-8 text-white">
-          <h1 className="hidden md:block text-5xl font-bold mb-12 md:mb-4">
-            We help you Move Your
-            <br /> Dream.
+          <h1 className="hidden md:block text-6xl font-bold mb-12 md:mb-4">
+            We help you Move Your<br /> Dream.
           </h1>
           <h1 className="md:hidden block text-6xl font-normal mb-16 ">
             We help you <br />
@@ -63,8 +58,7 @@ export default function Landing() {
           <Image
             src="/images/im2.png" // Replace with your image path
             alt="Supply Chain Efficiency"
-            layout="fill"
-            objectFit="cover"
+            style={{ objectFit: 'cover' }} fill
             quality={100}
           />
           <div className="ml-7 absolute bottom-0 left-0 w-full p-8 text-white">
@@ -82,8 +76,7 @@ export default function Landing() {
           <Image
             src="/images/im3.png" // Replace with your image path
             alt="Events Hosting"
-            layout="fill"
-            objectFit="cover"
+            style={{ objectFit: 'cover' }} fill
             quality={100}
           />
           <div className="ml-7 absolute bottom-0 left-0 p-8 text-white">
