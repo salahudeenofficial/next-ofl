@@ -11,7 +11,7 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <header className="bg-transparent relative z-10 text-white  overflow-hidden">
+    <header className="bg-transparent absolute z-10 text-white  overflow-hidden">
       <div className="bg-[#000080] w-screen  h-5"></div>
       <nav className="sm:hidden z-10 bg-transparent w-screen h-20 flex flex-row justify-between pl-7 pr-7">
         <Link href="/" className="flex items-center w-20">
