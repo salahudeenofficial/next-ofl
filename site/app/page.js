@@ -15,16 +15,16 @@ export default function Home() {
       <Landing />
       <ServiceSelector />
       <ContactUs />
-      <div class="hidden md:block">
+      <div className="hidden md:block">
         <A1_desktop />
       </div>
-      <div class="block md:hidden">
+      <div className="block md:hidden">
         <A1_mobile />
       </div>
-      <div class="hidden md:block">
+      <div className="hidden md:block">
         <Afoot_desktop />
       </div>
-      <div class="block md:hidden">
+      <div className="block md:hidden">
         <Afoot_mobile />
       </div>
     </main>
