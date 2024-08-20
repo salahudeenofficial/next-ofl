@@ -11,9 +11,9 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <header className="text-white overflow-hidden">
+    <header className="bg-transparent relative z-10 text-white  overflow-hidden">
       <div className="bg-[#000080] w-screen  h-5"></div>
-      <nav className="sm:hidden bg-custom-blue w-screen h-20 flex flex-row justify-between pl-7 pr-7">
+      <nav className="sm:hidden z-10 bg-transparent w-screen h-20 flex flex-row justify-between pl-7 pr-7">
         <Link href="/" className="flex items-center w-20">
           <svg
             width="131"
@@ -75,7 +75,7 @@ const Header = () => {
         </button>
         <Menu isOpen={isMenuOpen} toggleMenu={toggleMenu} />
       </nav>
-      <nav className="bg-custom-blue w-screen flex justify-between mx-0 pl-20 pr-20 items-center h-16 hidden sm:flex">
+      <nav className="bg-transparent z-10 w-screen flex justify-between mx-0 pl-20 pr-20 items-center h-16 hidden sm:flex">
         <Link href="/" className="flex items-center w-20">
           <svg
             width="131"
