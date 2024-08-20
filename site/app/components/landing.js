@@ -10,7 +10,7 @@ export default function Landing() {
   };
 
   return (
-    <div className="flex -translate-y-20 relative z-0 flex-col md:flex-row h-screen  overflow-x-hidden">
+    <div className="flex relative z-0 flex-col md:flex-row h-screen  overflow-x-hidden">
       {/* Left Section */}
       <div className="relative w-full md:w-1/2 h-full md:h-full">
         <div className="hidden md:block ">
