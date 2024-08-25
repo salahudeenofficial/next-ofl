@@ -109,6 +109,7 @@ const ServiceSelector = () => {
                 alt={sub_service.name}
                 width={100}
                 height={100}
+                placeholder="blur"
                 className="w-full h-auto"
               />
               <h3 className="pt-2 pb-2 text-custom-blue font-josefin ">
