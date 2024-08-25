@@ -5,7 +5,7 @@ const nextConfig = {
   output: "export",
   reactStrictMode: true,
   images: {
-    unoptimized: false,  // Disable server-side image optimization
+    unoptimized: true,  // Disable server-side image optimization
   },
   basePath: '/next-ofl',
 };
