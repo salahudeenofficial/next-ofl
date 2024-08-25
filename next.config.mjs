@@ -8,6 +8,7 @@ const nextConfig = {
     unoptimized: true,  // Disable server-side image optimization
   },
   basePath: '/next-ofl',
+  assetPrefix: '/next-ofl',
 };
 
 export default nextConfig;
