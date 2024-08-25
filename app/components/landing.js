@@ -15,7 +15,7 @@ export default function Landing() {
       <div className="relative w-full md:w-1/2 h-full md:h-full">
         <div className="hidden md:block ">
           <Image
-            src="/next-ofl/public/images/im1.png" // Replace with your image path
+            src="/images/im1.png" // Replace with your image path
             alt="Port and logistics"
             style={{ objectFit: "cover", objectPosition: "left" }}
             fill
@@ -24,7 +24,7 @@ export default function Landing() {
         </div>
         <div className="block md:hidden ">
           <Image
-            src="/next-ofl/public/images/mobim1.png" // Replace with your image path
+            src="/images/mobim1.png" // Replace with your image path
             alt="Port and logistics"
             style={{ objectFit: "cover", objectPosition: "right" }}
             fill
@@ -59,7 +59,7 @@ export default function Landing() {
       <div className="hidden md:flex flex-col md:w-1/2 h-full">
         <div className="relative w-full h-1/2">
           <Image
-            src="/next-ofl/public/images/im2.png" // Replace with your image path
+            src="/images/im2.png" // Replace with your image path
             alt="Supply Chain Efficiency"
             style={{ objectFit: "cover" }}
             fill
@@ -78,7 +78,7 @@ export default function Landing() {
         </div>
         <div className="relative w-full h-1/2">
           <Image
-            src="/next-ofl/public/images/im3.png" // Replace with your image path
+            src="/images/im3.png" // Replace with your image path
             alt="Events Hosting"
             style={{ objectFit: "cover" }}
             fill
