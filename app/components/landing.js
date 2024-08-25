@@ -78,7 +78,7 @@ export default function Landing() {
         </div>
         <div className="relative w-full h-1/2">
           <Image
-            src="/images/im3.png" // Replace with your image path
+            src="/next-ofl/images/im3.png" // Replace with your image path
             alt="Events Hosting"
             style={{ objectFit: "cover" }}
             fill
