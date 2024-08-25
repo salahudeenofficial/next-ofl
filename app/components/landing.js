@@ -24,7 +24,8 @@ export default function Landing() {
         </div>
         <div className="block md:hidden ">
           <Image
-            src="/images/mobim1.png" // Replace with your image path
+            src={`${process.env.BASE_PATH}/mobim1.svg`}
+            // Replace with your image path
             alt="Port and logistics"
             style={{ objectFit: "cover", objectPosition: "right" }}
             fill
