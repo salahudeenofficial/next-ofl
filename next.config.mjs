@@ -5,7 +5,8 @@ const nextConfig = {
   output: "export",
   reactStrictMode: true,
   images: {
-    unoptimized: false,  // Disable server-side image optimization
+    loader: 'akamai',
+    path: '',// Disable server-side image optimization
   },
   basePath: '/next-ofl',
   assetPrefix: '/next-ofl',
