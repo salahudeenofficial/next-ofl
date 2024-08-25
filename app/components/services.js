@@ -86,9 +86,11 @@ const ServiceSelector = () => {
       </h1>
 
       <div className="pl-20  flex sm:flex-row gap-2 flex-col">
-        <label className="font-josefin text-xs pt-1 pr-5">Please select:</label>
+        <label className="font-josefin text-black text-xs pt-1 pr-5">
+          Please select:
+        </label>
         <select
-          className=" h-5  w-72 text-xs bg-white border-b-2 border-black "
+          className=" h-5  w-72 text-xs text-black bg-white border-b-2 border-black "
           onChange={(e) => setSelectedService(services[e.target.value])}
           defaultValue="0"
         >
