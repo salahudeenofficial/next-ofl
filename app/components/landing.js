@@ -16,6 +16,7 @@ export default function Landing() {
         <div className="hidden md:block ">
           <Image
             placeholder="blur"
+            quality={25}
             src="/next-ofl/images/im1.png" // Replace with your image path
             alt="Port and logistics"
             style={{ objectFit: "cover", objectPosition: "left" }}
@@ -30,7 +31,7 @@ export default function Landing() {
             alt="Port and logistics"
             style={{ objectFit: "cover", objectPosition: "right" }}
             fill
-            quality={100}
+            quality={25}
           />
         </div>
 
@@ -66,7 +67,7 @@ export default function Landing() {
             alt="Supply Chain Efficiency"
             style={{ objectFit: "cover" }}
             fill
-            quality={100}
+            quality={25}
           />
           <div className="ml-7 absolute bottom-0 left-0 w-full p-8 text-white">
             <h2 className="mb-7 text-3xl md:text-4xl font-semibold">
@@ -86,7 +87,7 @@ export default function Landing() {
             alt="Events Hosting"
             style={{ objectFit: "cover" }}
             fill
-            quality={100}
+            quality={25}
           />
           <div className="ml-7 absolute bottom-0 left-0 p-8 text-white">
             <h2 className="mb-7 text-3xl md:text-4xl font-semibold">

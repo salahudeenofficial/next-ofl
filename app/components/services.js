@@ -105,6 +105,7 @@ const ServiceSelector = () => {
           {selectedService.map((sub_service, index) => (
             <div key={index}>
               <Image
+                quality={25}
                 src={sub_service.image}
                 alt={sub_service.name}
                 width={100}
